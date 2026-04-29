@@ -1,0 +1,22 @@
+<odoo>
+    <record id="view_niyu_sheets_log_tree" model="ir.ui.view">
+        <field name="name">niyu.sheets.log.list</field>
+        <field name="model">niyu.sheets.log</field>
+        <field name="arch" type="xml">
+            <list create="0" edit="0">
+                <field name="create_date"/>
+                <field name="direction"/>
+                <field name="mapping_id"/>
+                <field name="model_name"/>
+                <field name="record_id"/>
+                <field name="status"/>
+                <field name="message"/>
+            </list>
+        </field>
+    </record>
+    <record id="action_niyu_sheets_log" model="ir.actions.act_window">
+        <field name="name">Google Sheets Sync Logs</field>
+        <field name="res_model">niyu.sheets.log</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

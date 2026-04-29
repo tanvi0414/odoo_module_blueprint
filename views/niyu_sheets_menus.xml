@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem
+        id="menu_niyu_sheets_root"
+        name="Google Sheets"
+        sequence="35"
+        web_icon="odoo_module_blueprint,static/description/icon.png"/>
+
+    <menuitem
+        id="menu_niyu_sheets_connections"
+        name="Connections"
+        parent="menu_niyu_sheets_root"
+        action="action_niyu_sheets_connection"
+        sequence="10"
+        groups="odoo_module_blueprint.group_sheets_manager"/>
+
+    <menuitem
+        id="menu_niyu_sheets_mappings"
+        name="Mappings"
+        parent="menu_niyu_sheets_root"
+        action="action_niyu_sheets_mapping"
+        sequence="20"
+        groups="odoo_module_blueprint.group_sheets_manager"/>
+
+    <menuitem
+        id="menu_niyu_sheets_queue"
+        name="Sync Queue"
+        parent="menu_niyu_sheets_root"
+        action="action_niyu_sheets_queue"
+        sequence="30"
+        groups="odoo_module_blueprint.group_sheets_manager"/>
+
+    <menuitem
+        id="menu_niyu_sheets_logs"
+        name="Sync Logs"
+        parent="menu_niyu_sheets_root"
+        action="action_niyu_sheets_log"
+        sequence="40"
+        groups="odoo_module_blueprint.group_sheets_user,odoo_module_blueprint.group_sheets_manager"/>
+
+</odoo>

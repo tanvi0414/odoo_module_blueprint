@@ -1,0 +1,11 @@
+<odoo>
+    <record id="ir_cron_niyu_sheets_process_queue" model="ir.cron">
+        <field name="name">Niyu Sheets: Process Sync Queue</field>
+        <field name="model_id" ref="model_niyu_sheets_queue"/>
+        <field name="state">code</field>
+        <field name="code">model.cron_process_queue()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">minutes</field>
+        <field name="active">True</field>
+    </record>
+</odoo>

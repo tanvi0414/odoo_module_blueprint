@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_niyu_sheets_connection_manager,niyu.sheets.connection manager,model_niyu_sheets_connection,odoo_module_blueprint.group_sheets_manager,1,1,1,1
+access_niyu_sheets_mapping_manager,niyu.sheets.mapping manager,model_niyu_sheets_mapping,odoo_module_blueprint.group_sheets_manager,1,1,1,1
+access_niyu_sheets_mapping_field_manager,niyu.sheets.mapping.field manager,model_niyu_sheets_mapping_field,odoo_module_blueprint.group_sheets_manager,1,1,1,1
+access_niyu_sheets_queue_manager,niyu.sheets.queue manager,model_niyu_sheets_queue,odoo_module_blueprint.group_sheets_manager,1,1,1,1
+access_niyu_sheets_log_manager,niyu.sheets.log manager,model_niyu_sheets_log,odoo_module_blueprint.group_sheets_manager,1,0,0,0
+access_niyu_sheets_log_user,niyu.sheets.log user,model_niyu_sheets_log,odoo_module_blueprint.group_sheets_user,1,0,0,0

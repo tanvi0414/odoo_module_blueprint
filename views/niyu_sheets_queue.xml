@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_niyu_sheets_queue" model="ir.actions.act_window">
+        <field name="name">Sync Queue</field>
+        <field name="res_model">niyu.sheets.queue</field>
+        <field name="view_mode">list,form</field>
+    </record>
+
+</odoo>
