@@ -1,7 +1,7 @@
 {
     "name": "Google Sheets Connector",
     "summary": "Realtime Odoo to Google Sheets sync with safe writeback and audit logs",
-    "version": "18.0.1.0.0",
+    "version": "19.0.1.0.0",
     "category": "Productivity",
     "author": "CoDE2",
     "license": "OPL-1",
