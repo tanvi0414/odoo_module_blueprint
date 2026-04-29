@@ -18,7 +18,7 @@
     ],
     "installable": True,
     "application": True,
-    "price": 249.00,
+    "price": 79.00,
     "currency": "USD",
     "images": ["static/description/banner.gif"],
 }
